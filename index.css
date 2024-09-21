@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: #d5e1ef;
+  /* width: 100vb; */
+}
+.inner-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card {
+  background-color: white;
+  height: 499px;
+  width: 320px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; */
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+}
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.outfit-regular {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.outfit-bold {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 120%;
+  font-size: 22px;
+}
+.text {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.text-1 {
+  padding-bottom: 16px;
+}
